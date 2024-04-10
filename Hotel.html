@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="Hotel.css">
+</head>
+<body>
+    <fieldset style="background-color:turquoise;">
+    <div class="container">
+        <h1>Hotel Booking</h1>
+        <form id="bookingForm" style="background-color:burlywood; border:3px;">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="checkIn">Check-in Date:</label>
+                <input type="date" id="checkIn" name="checkIn" required>
+            </div>
+            <div class="form-group">
+                <label for="totalDays">Total Days:</label>
+                <input type="number" id="totalDays" name="totalDays" required>
+            </div>
+            <div class="form-group">
+                <label for="totalPersons">Total Persons:</label>
+                <input type="number" id="totalPersons" name="totalPersons" required>
+            </div>
+            <div class="form-group">
+                <label for="advanceAmount">Advance Amount:</label>
+                <input type="number" id="advanceAmount" name="advanceAmount" required>
+            </div>
+            <div class="form-group">
+                <label for="roomType">Room Type:</label>
+                <select id="roomType" name="roomType">
+                    <option value="Delux">Delux</option>
+                    <option value="Suite">Suite</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="amenities">Amenities:</label>
+                <input type="checkbox" id="ac" name="ac"> AC
+                <input type="checkbox" id="locker" name="locker"> Locker
+            </div>
+            <div class="form-group">
+                <button type="button" id="calculateButton">Calculate</button>
+            </div>
+            <div class="form-group">
+                <label for="totalCost">Total Cost:</label>
+                <input type="text" id="totalCost" name="totalCost" readonly>
+            </div>
+            <div class="form-group">
+                <label for="balance">Balance:</label>
+                <input type="text" id="balance" name="balance" readonly>
+            </div>
+        </form>
+    </div>
+    </fieldset>
+    <script src="Hotel.js"></script>
+</body>
+</html>
