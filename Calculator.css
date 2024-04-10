@@ -1,0 +1,138 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color:lightskyblue;
+}
+.division {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 8px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.display {
+  grid-column: span 4;
+  text-align: right;
+  padding: 10px;
+  background-color:darksalmon;
+  font-size: 1.5em;
+  color:black;
+  font-size:50px;
+}
+.button1{
+    background-color:aqua;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button2{
+    background-color:aquamarine;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button3{
+    background-color:darksalmon;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button4{
+    background-color:blueviolet;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button5{
+    background-color:brown;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button6{
+    background-color:burlywood;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button7{
+    background-color:cadetblue;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button8{
+    background-color:chartreuse;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button9{
+    background-color:chocolate;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button10{
+    background-color:coral;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button11{
+    background-color:cornflowerblue;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button12{
+    background-color:crimson;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button13{
+    background-color:darkturquoise;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button14{
+    background-color:darkgoldenrod;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button15{
+    background-color:darkgreen;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button16{
+    background-color:darkkhaki;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button17{
+    background-color:darkmagenta;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button18{
+    background-color:darkolivegreen;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
+.button19{
+    background-color:darkorange;
+    border-radius:5px;
+    color:white;
+    font-size:30px;
+}
